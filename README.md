@@ -1,6 +1,13 @@
 # mydemo
 
-A new Flutter project.
+This is a simple app made in flutter.
+
+This project features:
+
+-Theme change setting
+-Text scaling setting
+-Simple navigation
+-Usage of simple flutter animation
 
 ## Getting Started
 
