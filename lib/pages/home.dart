@@ -33,7 +33,6 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           ),
           child: const MyDrawer()),
       body: CustomScrollView(
-
         scrollDirection: Axis.vertical,
         slivers: [
           const MySliverAppBar(),

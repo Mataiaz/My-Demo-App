@@ -11,7 +11,7 @@ class MyAnimatedContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return TweenAnimationBuilder(
       child: Padding(
-        padding: EdgeInsets.only(top: 20),
+        padding: const EdgeInsets.only(top: 20),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(10),
           child: Container(
@@ -25,7 +25,7 @@ class MyAnimatedContainer extends StatelessWidget {
         curve: Curves.bounceOut,
         duration: Duration(seconds: cTime),
         builder: (BuildContext context, double _val, Widget? child) {
-          return Container(
+          return SizedBox(
               width: _val * 2000,//what direction and distance
                 child: child,
           );

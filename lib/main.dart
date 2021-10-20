@@ -8,7 +8,7 @@ void main() {
   runApp(const MyApp());
 }
 class MyApp extends StatefulWidget {
-  static double cSize = 32.0; //Text size
+  static double cSize = 24.0; //Text size
   static final ValueNotifier<ThemeMode> themeNotifier =
   ValueNotifier(ThemeMode.light);
 
@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         builder: (_, ThemeMode currentMode, __) {
 
           return MaterialApp(
-            initialRoute: '/home',
+            initialRoute: '/login',
             routes: {
               '/load'     : (context) => const Load(),
               '/login'    : (context) => const Login(),
@@ -46,6 +46,7 @@ class _MyAppState extends State<MyApp> {
             darkTheme: ThemeData(
               primaryColor: Colors.black38,
               canvasColor: Colors.white10,
+              shadowColor: Colors.deepOrange,
               secondaryHeaderColor: Colors.orange,
               textTheme: const TextTheme(
                 bodyText2: TextStyle(),
@@ -56,9 +57,10 @@ class _MyAppState extends State<MyApp> {
 
             //Light colors
             theme: ThemeData(
-              primaryColor: Colors.blue,
+              primaryColor: Colors.deepOrange,
               secondaryHeaderColor: Colors.white,
-              canvasColor: Colors.lightBlueAccent,
+                shadowColor: Colors.white,
+              canvasColor: Colors.orange,
                 textTheme: const TextTheme(
                   bodyText2: TextStyle(),
                 ).apply(

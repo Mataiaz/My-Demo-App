@@ -12,9 +12,9 @@ class DrawerButtons extends StatelessWidget {
           cTime: 6,
           child: SizedBox(
             child: IconButton(
-              icon: const Icon(Icons.logout),
+              icon: const Icon(Icons.account_circle),
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/home');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),
@@ -24,9 +24,9 @@ class DrawerButtons extends StatelessWidget {
           cTime: 8,
           child: SizedBox(
             child: IconButton(
-              icon: const Icon(Icons.logout),
+              icon: const Icon(Icons.access_alarm),
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/home');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),
@@ -36,9 +36,9 @@ class DrawerButtons extends StatelessWidget {
           cTime: 10,
           child: SizedBox(
             child: IconButton(
-              icon: const Icon(Icons.logout),
+              icon: const Icon(Icons.delete),
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/home');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),
@@ -48,9 +48,9 @@ class DrawerButtons extends StatelessWidget {
           cTime: 12,
           child: SizedBox(
             child: IconButton(
-              icon: const Icon(Icons.logout),
+              icon: const Icon(Icons.where_to_vote),
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/home');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),
@@ -60,9 +60,9 @@ class DrawerButtons extends StatelessWidget {
           cTime: 14,
           child: SizedBox(
             child: IconButton(
-              icon: const Icon(Icons.logout),
+              icon: const Icon(Icons.settings),
               onPressed: () {
-                Navigator.pushNamed(context, '/login');
+                Navigator.pushReplacementNamed(context, '/settings');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),

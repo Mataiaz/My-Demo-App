@@ -21,7 +21,7 @@ class Intro extends StatelessWidget {
               color: Theme.of(context).secondaryHeaderColor,
               shadows: [
                 Shadow(
-                  color: Colors.white,
+                  color: Theme.of(context).shadowColor,
                   blurRadius: cBlur,
                 )
               ]),

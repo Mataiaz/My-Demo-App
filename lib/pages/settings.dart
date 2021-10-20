@@ -50,7 +50,6 @@ class _SettingsState extends State<Settings> with SingleTickerProviderStateMixin
             IconButton(
               icon: const Icon(Icons.arrow_back),
               onPressed: () {
-                Navigator.pop(context); // temp fix to not stack pages
                 Navigator.pushReplacementNamed(context, '/home');
               },
             )
@@ -84,6 +83,7 @@ class _SettingsState extends State<Settings> with SingleTickerProviderStateMixin
                         setState(() {
                           setThemeBtnText(darkMode);
                           Settings.isLightMode = !Settings.isLightMode;
+                          // ignore: avoid_print
                           print('Light mode is ${Settings.isLightMode}');
                         });
                         MyApp.themeNotifier.value =

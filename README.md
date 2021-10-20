@@ -1,5 +1,7 @@
 # mydemo
 
+If you have any questions just send an email at mathias344@live.no with subject github
+
 This is a simple app made in flutter.
 
 This project features:

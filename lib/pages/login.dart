@@ -36,7 +36,7 @@ class _LoginState extends State<Login> {
               color: Colors.green,
               child: MyLoginButton(
                 cOnPressed: () {
-                  Navigator.pushNamed(context, '/load');
+                  Navigator.pushReplacementNamed(context, '/load');
                 },
                 cTitle: 'Login?',
               ),
