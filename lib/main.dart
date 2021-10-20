@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:mydemo/pages/load.dart';
 import 'package:mydemo/pages/login.dart';
 import 'package:mydemo/pages/home.dart';
+import 'package:mydemo/pages/profile.dart';
 import 'package:mydemo/pages/settings.dart';
 
 void main() {
@@ -27,8 +28,9 @@ class _MyAppState extends State<MyApp> {
         builder: (_, ThemeMode currentMode, __) {
 
           return MaterialApp(
-            initialRoute: '/login',
+            initialRoute: '/profile',
             routes: {
+              '/profile'  : (context) => const Profile(),
               '/load'     : (context) => const Load(),
               '/login'    : (context) => const Login(),
               '/home'     : (context) => const Home(),

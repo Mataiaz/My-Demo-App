@@ -14,7 +14,7 @@ class DrawerButtons extends StatelessWidget {
             child: IconButton(
               icon: const Icon(Icons.account_circle),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/home');
+                Navigator.pushReplacementNamed(context, '/profile');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),
