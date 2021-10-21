@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mydemo/custom%20widgets/setting_button.dart';
-import 'package:mydemo/custom%20widgets/settings_colors.dart';
-import 'package:mydemo/custom%20widgets/text.dart';
+import 'package:mydemo/custom%20widgets/buttons/setting_button.dart';
+import 'package:mydemo/custom%20widgets/misc/settings_colors.dart';
+import 'package:mydemo/custom%20widgets/misc/text.dart';
 import 'package:mydemo/main.dart';
 
 class Settings extends StatefulWidget {

@@ -4,6 +4,7 @@ import 'package:mydemo/pages/login.dart';
 import 'package:mydemo/pages/home.dart';
 import 'package:mydemo/pages/profile.dart';
 import 'package:mydemo/pages/settings.dart';
+import 'package:mydemo/pages/timer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,12 +29,13 @@ class _MyAppState extends State<MyApp> {
         builder: (_, ThemeMode currentMode, __) {
 
           return MaterialApp(
-            initialRoute: '/profile',
+            initialRoute: '/timer',
             routes: {
-              '/profile'  : (context) => const Profile(),
               '/load'     : (context) => const Load(),
               '/login'    : (context) => const Login(),
               '/home'     : (context) => const Home(),
+              '/timer'    : (context) => const SetTimer(),
+              '/profile'  : (context) => const Profile(),
               '/settings' : (context) => const Settings(),
             },
             title: 'My flutter demo app',

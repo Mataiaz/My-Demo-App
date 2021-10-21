@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mydemo/custom%20widgets/animated_container.dart';
+import 'package:mydemo/custom%20widgets/misc/animated_container.dart';
 
 class DrawerButtons extends StatelessWidget {
   const DrawerButtons({Key? key}) : super(key: key);
@@ -26,7 +26,7 @@ class DrawerButtons extends StatelessWidget {
             child: IconButton(
               icon: const Icon(Icons.access_alarm),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/home');
+                Navigator.pushReplacementNamed(context, '/timer');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),

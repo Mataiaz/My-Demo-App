@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:mydemo/custom widgets/intro_title.dart';
-import 'package:mydemo/custom%20widgets/icon_button.dart';
+import 'package:mydemo/custom%20widgets/misc/intro_title.dart';
+import 'package:mydemo/custom%20widgets/buttons/icon_button.dart';
 
 class Load extends StatefulWidget {
   const Load({Key? key}) : super(key: key);
@@ -34,6 +34,7 @@ class _LoadState extends State<Load> {
   void initState() {
     super.initState();
     loadInfo();
+    cancel = false;
     loading = 'Loading';
   }
 

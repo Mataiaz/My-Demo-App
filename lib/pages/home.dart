@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mydemo/custom%20widgets/home_drawer.dart';
-import 'package:mydemo/custom%20widgets/sliverappbar.dart';
+import 'package:mydemo/custom%20widgets/misc/home_drawer.dart';
+import 'package:mydemo/custom%20widgets/misc/sliverappbar.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
