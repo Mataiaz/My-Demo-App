@@ -1,5 +1,13 @@
 # About this project #
 This is a simple app made in flutter.
+Pictures at the bottom.
+
+# Test project #
+Go on this link and press download(right side on the screen).
+https://github.com/Mataiaz/projects/blob/main/mydemo.msix
+
+If that did not work you can download this project and then go to build > windows > runner > release > flutter_wubdiw.dll
+to run the program
 
 ## This project features ##
 * Theme change setting
@@ -7,14 +15,6 @@ This is a simple app made in flutter.
 * Simple navigation
 * Simple timer function
 * Usage of simple flutter animation
-
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp1.PNG)
-
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp2.PNG)
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp3.PNG)
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp4.PNG)
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp5.PNG)
-
 
 ## Getting Started with your own flutter project ##
 
@@ -31,3 +31,11 @@ samples, guidance on mobile development, and a full API reference.
 ## Contact ##
 mathias344@live.no
 Made by Mathias L. Bjarnason
+
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp1.PNG)
+
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp2.PNG)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp3.PNG)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp4.PNG)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp5.PNG)
+
