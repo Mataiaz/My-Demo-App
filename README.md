@@ -8,6 +8,10 @@ This is a simple app made in flutter.
 * Simple timer function
 * Usage of simple flutter animation
 
+https://raw.githubusercontent.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp1.PNG https://raw.githubusercontent.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp2.PNG
+https://raw.githubusercontent.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp3.PNG https://raw.githubusercontent.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp4.PNG
+https://raw.githubusercontent.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp5.PNG
+
 ## Getting Started with your own flutter project ##
 
 A few resources to get you started if this is your first Flutter project:
