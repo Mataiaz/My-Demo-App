@@ -9,6 +9,7 @@ This is a simple app made in flutter.
 * Usage of simple flutter animation
 
 ![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp1.PNG)
+
 ![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp2.PNG)
 ![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp3.PNG)
 ![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp4.PNG)
