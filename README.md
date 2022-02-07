@@ -8,8 +8,8 @@ This is a simple app made in flutter.
 * Simple timer function
 * Usage of simple flutter animation
 
-![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp1.PNG?raw=true) ![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp2.PNG?raw=true)
-![](https://github.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp3.PNG?raw=true) ![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp4.PNG?raw=true)
+![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp1.PNG?raw=true) ![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp2.PNG?)
+![](https://github.com/Mataiaz/My-Demo-App/main/demoPics/mydemoapp3.PNG?raw=true) ![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp4.PNG)
 ![](https://github.com//Mataiaz/My-Demo-App/main/demoPics/mydemoapp5.PNG?raw=true)
 
 
