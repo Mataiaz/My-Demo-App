@@ -65,14 +65,12 @@ class _TimerState extends State<SetTimer> {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-            onPressed: () {
-              Navigator.pushReplacementNamed(context, '/home');
-            },
-          icon: const Icon(Icons.arrow_back
+          onPressed: () {
+            Navigator.pushReplacementNamed(context, '/home');
+          },
+          icon: const Icon(Icons.arrow_back),
         ),
-
-        ),
-        toolbarHeight: 30,
+        toolbarHeight: 40,
         shadowColor: Colors.transparent,
         backgroundColor: Colors.red,
       ),

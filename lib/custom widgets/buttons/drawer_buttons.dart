@@ -12,9 +12,9 @@ class DrawerButtons extends StatelessWidget {
           cTime: 6,
           child: SizedBox(
             child: IconButton(
-              icon: const Icon(Icons.account_circle),
+              icon: const Icon(Icons.info),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/profile');
+                Navigator.pushReplacementNamed(context, '/info');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),
@@ -27,30 +27,6 @@ class DrawerButtons extends StatelessWidget {
               icon: const Icon(Icons.access_alarm),
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/timer');
-              },
-              color: Theme.of(context).secondaryHeaderColor,
-            ),
-          ),
-        ),
-        MyAnimatedContainer(
-          cTime: 10,
-          child: SizedBox(
-            child: IconButton(
-              icon: const Icon(Icons.delete),
-              onPressed: () {
-                Navigator.pushReplacementNamed(context, '/home');
-              },
-              color: Theme.of(context).secondaryHeaderColor,
-            ),
-          ),
-        ),
-        MyAnimatedContainer(
-          cTime: 12,
-          child: SizedBox(
-            child: IconButton(
-              icon: const Icon(Icons.where_to_vote),
-              onPressed: () {
-                Navigator.pushReplacementNamed(context, '/home');
               },
               color: Theme.of(context).secondaryHeaderColor,
             ),

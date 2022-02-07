@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mydemo/main.dart';
 import 'package:mydemo/custom%20widgets/misc/home_drawer.dart';
 import 'package:mydemo/custom%20widgets/misc/sliverappbar.dart';
 
@@ -39,21 +40,9 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           SliverToBoxAdapter(
             child: Column(
               children: [
-                Container(
-                  height: 200,
-                  color: Colors.red,
-                ),
-                Container(
-                  height: 200,
-                  color: Colors.yellow,
-                ),
-                Container(
-                  height: 200,
-                  color: Colors.orange,
-                ),
-                Container(
-                  height: 200,
-                  color: Colors.green,
+                Text(
+                  "           Change my size in settings!\n                               OR\nChange my background color in settings.",
+                  style: TextStyle(color: Colors.white, fontSize: MyApp.cSize),
                 ),
                 Container(
                   height: 200,
@@ -70,6 +59,10 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
                 Container(
                   height: 200,
                   color: Colors.green,
+                ),
+                Container(
+                  height: 200,
+                  color: Colors.red,
                 ),
               ],
             ),

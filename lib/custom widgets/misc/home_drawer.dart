@@ -12,13 +12,12 @@ class MyDrawer extends StatelessWidget {
         child: SizedBox(
           width: 60, //For drawer size
           child: Drawer(
-            elevation: 0.0, //Drop shadow (standard is 16.0)
-            child: Column(
-              children: const [
-                DrawerButtons(),
-              ],
-            )
-          ),
+              elevation: 0.0, //Drop shadow (standard is 16.0)
+              child: Column(
+                children: const [
+                  DrawerButtons(),
+                ],
+              )),
         ),
       ),
     );

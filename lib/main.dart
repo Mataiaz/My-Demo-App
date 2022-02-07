@@ -2,17 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:mydemo/pages/load.dart';
 import 'package:mydemo/pages/login.dart';
 import 'package:mydemo/pages/home.dart';
-import 'package:mydemo/pages/profile.dart';
+import 'package:mydemo/pages/info.dart';
 import 'package:mydemo/pages/settings.dart';
 import 'package:mydemo/pages/timer.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatefulWidget {
   static double cSize = 24.0; //Text size
   static final ValueNotifier<ThemeMode> themeNotifier =
-  ValueNotifier(ThemeMode.light);
+      ValueNotifier(ThemeMode.light);
 
   const MyApp({Key? key}) : super(key: key);
 
@@ -23,20 +24,18 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-
     return ValueListenableBuilder<ThemeMode>(
         valueListenable: MyApp.themeNotifier,
         builder: (_, ThemeMode currentMode, __) {
-
           return MaterialApp(
             initialRoute: '/timer',
             routes: {
-              '/load'     : (context) => const Load(),
-              '/login'    : (context) => const Login(),
-              '/home'     : (context) => const Home(),
-              '/timer'    : (context) => const SetTimer(),
-              '/profile'  : (context) => const Profile(),
-              '/settings' : (context) => const Settings(),
+              '/load': (context) => const Load(),
+              '/login': (context) => const Login(),
+              '/home': (context) => const Home(),
+              '/timer': (context) => const SetTimer(),
+              '/info': (context) => const Info(),
+              '/settings': (context) => const Settings(),
             },
             title: 'My flutter demo app',
             //Select which theme mode
@@ -48,29 +47,27 @@ class _MyAppState extends State<MyApp> {
 
             //Dark colors
             darkTheme: ThemeData(
-              primaryColor: Colors.black38,
-              canvasColor: Colors.white10,
-              shadowColor: Colors.deepOrange,
-              secondaryHeaderColor: Colors.orange,
-              textTheme: const TextTheme(
-                bodyText2: TextStyle(),
-              ).apply(
-                bodyColor: Colors.orange,
-              )
-            ),
-
-            //Light colors
-            theme: ThemeData(
-              primaryColor: Colors.deepOrange,
-              secondaryHeaderColor: Colors.white,
-                shadowColor: Colors.white,
-              canvasColor: Colors.orange,
+                primaryColor: Colors.black38,
+                canvasColor: Colors.white10,
+                shadowColor: Colors.deepOrange,
+                secondaryHeaderColor: Colors.orange,
                 textTheme: const TextTheme(
                   bodyText2: TextStyle(),
                 ).apply(
                   bodyColor: Colors.orange,
-                )
-            ),
+                )),
+
+            //Light colors
+            theme: ThemeData(
+                primaryColor: Colors.deepOrange,
+                secondaryHeaderColor: Colors.white,
+                shadowColor: Colors.white,
+                canvasColor: Colors.orange,
+                textTheme: const TextTheme(
+                  bodyText2: TextStyle(),
+                ).apply(
+                  bodyColor: Colors.orange,
+                )),
           );
         });
   }
