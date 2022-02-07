@@ -7,6 +7,7 @@ I have put out the app as a windows file for easy testing and checking. The app 
 
 Go on this link and clone the project
 https://github.com/Mataiaz/projects
+
 Then open the folder (projects) > app > mydemoapp
 
 
