@@ -28,7 +28,8 @@ class _MyAppState extends State<MyApp> {
         valueListenable: MyApp.themeNotifier,
         builder: (_, ThemeMode currentMode, __) {
           return MaterialApp(
-            initialRoute: '/timer',
+            debugShowCheckedModeBanner: false,
+            initialRoute: '/login',
             routes: {
               '/load': (context) => const Load(),
               '/login': (context) => const Login(),

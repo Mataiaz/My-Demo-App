@@ -57,14 +57,14 @@ class _InfoState extends State<Info> {
               child: Column(
                 children: [
                   Container(
-                    height: 400,
+                    height: 2000,
                     decoration: BoxDecoration(
                         color: Colors.orangeAccent.withOpacity(0.5),
                         borderRadius:
                             const BorderRadius.all(Radius.circular(40))),
                     child: Column(
                       children: [
-                        Row(
+                        Column(
                           children: const [
                             MyText(
                               cText:
