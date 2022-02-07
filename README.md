@@ -1,19 +1,14 @@
-# mydemo
-
-If you have any questions just send an email at mathias344@live.no with subject github
-
+# About this project #
 This is a simple app made in flutter.
 
-This project features:
+## This project features ##
+* Theme change setting
+* Text scaling setting
+* Simple navigation
+* Simple timer function
+* Usage of simple flutter animation
 
--Theme change setting
--Text scaling setting
--Simple navigation
--Usage of simple flutter animation
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+## Getting Started with your own flutter project
 
 A few resources to get you started if this is your first Flutter project:
 
