@@ -5,8 +5,10 @@ Pictures at the bottom.
 # Test project #
 I have put out the app as a windows file for easy testing and checking. The app can run on a phone.
 
-Go on this link and press download(right side on the screen).
-https://github.com/Mataiaz/projects/blob/main/mydemo.msix
+Go on this link and clone the project
+https://github.com/Mataiaz/projects
+Then open the folder (projects) > app > mydemoapp
+
 
 If that did not work you can download this project and then go to build > windows > runner > release > flutter_wubdiw.dll
 to run the program
