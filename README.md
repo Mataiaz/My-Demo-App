@@ -38,10 +38,10 @@ samples, guidance on mobile development, and a full API reference.
 mathias344@live.no
 Made by Mathias L. Bjarnason
 
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp1.PNG)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/loginpage.png)
 
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp2.PNG)
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp3.PNG)
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp4.PNG)
-![](https://github.com/Mataiaz/My-Demo-App/blob/main/demoPics/mydemoapp5.PNG)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/homepage.png)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/timepage.png)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/settingspage.png)
+![](https://github.com/Mataiaz/My-Demo-App/blob/main/infopage.png)
 
