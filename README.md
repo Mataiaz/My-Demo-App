@@ -15,7 +15,7 @@ If that did not work you can download this project and then go to build > window
 to run the program
 
 ## This project features ##
-* This app does not have an authenticator, its only simulated
+* This app does not have an authenticator, it is only simulated
 * Theme change setting
 * Text scaling setting
 * Simple navigation
